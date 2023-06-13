@@ -435,8 +435,15 @@ height: 88px;
    padding: 100px 0;
 }
 .footer-container{
-   
+   display: flex;
+   align-items: baseline;
+
 }
+
+.footer-logo{
+   margin-right: 120px;
+}
+
 .footer-container a{
    margin-bottom: 16px;
    display: block;
@@ -448,9 +455,12 @@ height: 88px;
    color: #f4f4fd;
 }
 .footer-text {
+   font-weight: 500;
+   font-size: 16px;  
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--footer-text);
+   margin-bottom: 16px;
 }
 .footer a{
    display: inline-block;
