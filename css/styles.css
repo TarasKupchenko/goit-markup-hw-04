@@ -192,6 +192,7 @@ address{
    background-size: cover;
    background-repeat: no-repeat;
    padding: 188px 0;
+   max-width: 1440px;
 }
 .hero-contanier{
    
@@ -252,16 +253,27 @@ margin-bottom: 8px;
 .benefits-item{
    width: calc((100% - 72px)/4);
 }
+
+.benefits-block-item{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 112px;
+   background-color: #f4f4fd; 
+   border-radius: 4px;
+   margin-bottom: 8px; 
+}
+
 .benefits-text {
    line-height: 1.5;
    letter-spacing: 0.02em;
 }
 
-.benefits-icon{
+/*.benefits-icon{
    display: block;
    margin: 0 auto;
    margin-bottom: 32px;
-}
+}*/
 
 /*------------------WHAT-----------------*/
 .what{
