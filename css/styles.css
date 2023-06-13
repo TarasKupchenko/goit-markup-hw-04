@@ -137,14 +137,7 @@ body{
    border-radius: 2px;
 }
 
-.portfolio::after{
-   content: '';
-   width: 66px;
-   height: 4px;
-   background-color:  #404BBF;
-   display: block;
-   border-radius: 2px;
-}
+
 
 .contacts::after{
    content: '';
@@ -508,6 +501,23 @@ height: 88px;
    
 }
 
+.portfolio-link{
+   position: relative;
+   color: #404bbf; 
+}
+
+.portfolio-link::after{
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: -1px;
+   width: 66px;
+   height: 4px;
+   background-color:  #404BBF;
+   border-radius: 2px;
+}
+
+
 .categories-item-block{
    position: relative;
    overflow: hidden;
@@ -531,6 +541,13 @@ height: 88px;
    padding: 40px 32px 0 32px;
    
 }
+
+
+.categories-link:hover,
+.categories-link:focus{
+   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .categories .list{
    flex-wrap: wrap;
    gap: 24px;
