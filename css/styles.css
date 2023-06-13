@@ -389,7 +389,7 @@ margin-bottom: 8px;
 }
 
 .clients-list-items{
-   width: width: calc((100% - 120px) / 6);
+width: calc((100% - 120px) / 6);
 }
 
 .client-link{
@@ -411,8 +411,7 @@ margin-bottom: 8px;
 }
 
 .clients-list {
-   width: calc((100% - 120px)/5);
-   gap: 24px;
+
 }
 .clients-block {
    border: 1px solid #8E8F99;
