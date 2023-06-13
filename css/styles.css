@@ -523,8 +523,13 @@ height: 88px;
    overflow: hidden;
 }
 .categories-item-block:hover .categories-hidden-block{
-   transform: translate(0);
+   transform: translateY(0);
 }
+
+.categories-item-block:focus .categories-hidden-block{
+   transform: translateY(0);
+}
+
 .categories-hidden-block{
    background-color: #4D5AE5;
    position: absolute;
@@ -542,6 +547,9 @@ height: 88px;
    
 }
 
+.categories-link{
+   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
 
 .categories-link:hover,
 .categories-link:focus{
@@ -589,8 +597,7 @@ background-color: var(--portfolio-btn);
 padding: 12px 24px;
 border: 1px solid #e7e9fc;
 border-radius: 4px;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .cat-btn:hover,
 .cat-btn:focus{
