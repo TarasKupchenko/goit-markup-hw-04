@@ -128,6 +128,10 @@ body{
    position: relative;
    color: #404bbf; 
 }
+
+.studio-link{
+   color: #404bbf;
+}
 .studio::after{
    content: '';
    position: absolute;
