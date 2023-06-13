@@ -390,6 +390,7 @@ margin-bottom: 8px;
 
 .clients-list-items{
 width: calc((100% - 120px) / 6);
+height: 88px;
 }
 
 .client-link{
@@ -411,7 +412,7 @@ width: calc((100% - 120px) / 6);
 }
 
 .clients-list {
-
+ gap: 24px;
 }
 .clients-block {
    border: 1px solid #8E8F99;
@@ -424,17 +425,6 @@ width: calc((100% - 120px) / 6);
 .clients-social-icon{
    fill: #8E8F99;
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.clients-block:hover .clients-social-icon,
-.clients-block:focus .clients-social-icon{
-   fill: #404BBF;
-}
-
-.clients-block-logo{
-   padding-top: 16px;
-   padding-bottom: 16px;
-   padding-left: 32px;
-   padding-right: 32px;
 }
 
 
